@@ -29,6 +29,7 @@ const MainBtn = styled.a`
   background: ${(props) => props.primary ? "transparent" : "white"};
 
 `;
+
 const Cabecalho = () => {
   return (
     <Header>
