@@ -1,9 +1,10 @@
-import React from "react";
-import bank_logo from "../../assets/images/bank_logo.svg";
-import styled from "styled-components";
+import React from 'react';
+import bank_logo from '../../assets/images/bank_logo.svg';
+import styled from 'styled-components';
+import { corPrimaria } from '../UI/variaveis';
 
 const Header = styled.nav`
-  background-color: #41d3be;
+  background-color: ${corPrimaria};
   display: flex;
   justify-content: space-between;
   padding: 0 15vw;
@@ -18,16 +19,15 @@ const Logo = styled.img`
 `;
 
 const MainBtn = styled.a`
- text-align: center;
+  text-align: center;
   border-radius: 3px;
   padding: 5px 20px;
   margin: 0 10px;
   font-weight: 600;
   border: 2px solid white;
 
-  color: ${(props) => props.primary ? "white" : "#41d3be"};
-  background: ${(props) => props.primary ? "transparent" : "white"};
-
+  color: ${(props) => (props.primary ? 'white' : corPrimaria)};
+  background: ${(props) => (props.primary ? 'transparent' : 'white')};
 `;
 
 const Cabecalho = () => {
@@ -35,9 +35,7 @@ const Cabecalho = () => {
     <Header>
       <Logo src={bank_logo} alt="Logo Smart Bank" />
       <div>
-        <MainBtn href="https://google.com">
-          Ajuda
-        </MainBtn>
+        <MainBtn href="https://google.com">Ajuda</MainBtn>
         <MainBtn primary href="https://google.com">
           Sair
         </MainBtn>

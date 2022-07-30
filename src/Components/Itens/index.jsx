@@ -1,10 +1,10 @@
-import React from "react";
-import styled from "styled-components";
-import Item from "./Item";
-import IconFuncion from "../IconFuncion.js";
+import React from 'react';
+import styled from 'styled-components';
+import Item from './Item';
+import IconFuncion from '../IconFuncion.js';
 
 const Itens = styled.div`
-  box-shadow:  4px 4px 20px 0 rgba(0,0,0,0.1);
+  box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   margin: 2px 0;
   display: flex;
@@ -15,11 +15,11 @@ const Itens = styled.div`
 `;
 
 export default (props) => {
-  return(
+  return (
     <Itens>
       {IconFuncion(props.type)}
       <Item {...props} />
       <span>{props.date}</span>
     </Itens>
-  )
-}
+  );
+};

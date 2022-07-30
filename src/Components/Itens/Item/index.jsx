@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Item = styled.div`
   display: flex;
@@ -17,5 +17,5 @@ export default ({ type, from, value }) => {
       <span>{from}</span>
       <span>{value}</span>
     </Item>
-  )
-}
+  );
+};
