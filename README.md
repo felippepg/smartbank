@@ -29,16 +29,16 @@ $ yarn OU npm install (dependendo do seu gerenciador de pacotes)
 $ yarn start ou npm run start
 ```
 
-### :pushpin: Home
+### :bulb: Tema Escuro
 
 <h1 align="center">
-    <img alt="Tema Escuro" title="dark" src="./src/assets/Tema Escuro.png" />
+    <img alt="Tema Escuro" title="dark" src="./src/assets/images/tema-escuro.png" />
 </h1>
 
-### :pushpin: Chat
+### :bulb: Tema Claro
 
 <h1 align="center">
-    <img alt="Tema Claro" title="light" src="./src/assets/Tema Claro.png" />
+    <img alt="Tema Claro" title="light" src="./src/assets/images/tema-claro.png" />
 </h1>
 
 ## 🛠 Tecnologias
